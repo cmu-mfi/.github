@@ -21,8 +21,11 @@ We strongly encourage open source collaboration and value every contribution mad
 ## Getting Started
 
 1. **Explore**: Navigate through our code repositories and packages.
-2. **Clone**: Feel free to clone our repositories for your personal or research use.
-3. **Contribute**: We welcome contributions from the community! Please see our [contribution guidelines](CONTRIBUTION.md) for more information.
+   - [Additive Manufacturing](ADDITIVE.md)
+   - [Digital Twin](DIGITAL-TWIN.md)
+   - [Industrial Robots](INDUSTRIAL-ROBOTS.md)
+3. **Clone**: Feel free to clone our repositories for your personal or research use.
+4. **Contribute**: We welcome contributions from the community! Please see our [contribution guidelines](CONTRIBUTION.md) for more information.
 
 ## Support and Contact
 
