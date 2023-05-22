@@ -30,3 +30,5 @@ We respect your privacy. Your email address will be used only for sending you ou
 You can unsubscribe at any time by clicking on the "unsubscribe" link in the footer of our newsletters, or by sending an email to `unsubscribe@cmu.codebase.edu` with the subject line "Unsubscribe".
 
 We're excited to have you join our community and look forward to keeping you informed about our work!
+
+[**Go to Main Page**](https://github.com/cmu-mfi/)

@@ -39,3 +39,5 @@ Remember that this is a community effort. Be respectful and professional in all 
 Thank you for your interest in contributing to our codebase! We look forward to your collaboration.
 
 **Note:** By submitting a pull request, you agree to license your contributions under the same license as this project.
+
+[**Go to Main Page**](https://github.com/cmu-mfi/)

@@ -20,3 +20,6 @@ If you're interested in contributing to our work in digital twin, we would love 
 Thank you for your interest in our work in Digital Twin. We look forward to your collaboration as we continue to innovate in this field.
 
 Stay updated with our latest projects and code releases by subscribing to our newsletter. [Subscribe Here](SUBSCRIPTION.md).
+
+
+[**Go to Main Page**](https://github.com/cmu-mfi/)
