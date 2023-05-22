@@ -1,1 +1,1 @@
-## Markdown documentation for the MFI Codebase
+Markdown documentation for the MFI Codebase
