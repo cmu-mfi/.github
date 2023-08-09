@@ -15,9 +15,9 @@ Below are various subsystems of the testbed and associated repos.
     - [gp4-lego-assembly](https://github.com/cmu-mfi/gp4-lego-assembly) : Lego assembly package for GP4
 
 2. **Programmable Light Curtains for Safety**:
+    - [lc-utils](https://github.com/cmu-mfi/lc-utils): Visualization and calibration utilities for the tesbed
     - [bluelc-rpi](https://github.com/cmu-mfi/bluelc-rpi): Onboard compute utilities (like: curtain profile generation) for the blue device.
     - [redlc-rpi](https://github.com/cmu-mfi/redlc-rpi): Onboard compute utilities for the red device.
-    - [lc-utils](https://github.com/cmu-mfi/lc-utils): Visualization and calibration utilities for the tesbed
     - [LC-CORE](https://github.com/cmu-mfi/LC-CORE): Driver code for light curtain devices [limited access]
     
     More details on programmable light curtains can be found [here](https://www.cs.cmu.edu/~ILIM/light_curtains/)
