@@ -2,8 +2,6 @@
 
 Welcome to the FAQ page! We have compiled a list of questions that are frequently asked by users and contributors. If you have a question that's not listed here, feel free to contact us via our [Contact Us](CONTACT.md) page.
 
-## General
-
 ### What is the purpose of this codebase?
 
 The purpose of this codebase is to share the code and packages developed by Carnegie Mellon University in the course of our research and industry partnerships. We believe in open collaboration and sharing our work to foster progress and innovation.
@@ -12,6 +10,7 @@ The purpose of this codebase is to share the code and packages developed by Carn
 
 Our codebase is open to the public. Researchers, developers, and tech enthusiasts can use the code for personal and academic purposes, subject to the terms of the respective licenses. Please ensure to read and understand the license before using the code.
 
+<!--
 ## Contributions
 
 ### How can I contribute to this codebase?
@@ -33,4 +32,4 @@ If you're experiencing difficulties, please check the documentation provided wit
 
 To stay updated, please subscribe to our newsletter. Check the [Subscription Page](SUBSCRIPTION.md) for more information. -->
 
-We hope you find this FAQ helpful. If you have any other questions, feel free to [contact us](CONTACT.md).
+[Contribution Guidelines](CONTRIBUTION.md)
