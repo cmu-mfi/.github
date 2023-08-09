@@ -13,9 +13,10 @@ Below are various subsystems of the testbed and associated repos.
     - [gp4-lego-assembly](https://github.com/cmu-mfi/gp4-lego-assembly) : Lego assembly package for GP4
 
 2. **Programmable Light Curtains for Safety**:
-    - [Link to Repo 1]
-    - [Link to Repo 2]
-    - 
+    - [bluelc-rpi](https://github.com/cmu-mfi/bluelc-rpi)
+    - [redlc-rpi](https://github.com/cmu-mfi/redlc-rpi)
+    - [lc-utils](https://github.com/cmu-mfi/lc-utils)
+      
 3. **Autonomous Mobile Robots (AMR)**: [Link to Repo 1] [Link to Repo 2]
 4. **MES and Scheduling**: [Link to Repo 1] [Link to Repo 2]
 ...
