@@ -14,8 +14,9 @@ Below are various subsystems of the testbed and associated repos.
 
 2. **Programmable Light Curtains for Safety**:
     - [bluelc-rpi](https://github.com/cmu-mfi/bluelc-rpi): Onboard compute utilities (like: curtain profile generation) for the blue device.
-    - [redlc-rpi](https://github.com/cmu-mfi/redlc-rpi): Onboard compute utilities (like: curtain profile generation) for the red device.
+    - [redlc-rpi](https://github.com/cmu-mfi/redlc-rpi): Onboard compute utilities for the red device.
     - [lc-utils](https://github.com/cmu-mfi/lc-utils): Visualization and calibration utilities for the tesbed
+    - [LC-CORE](https://github.com/cmu-mfi/LC-CORE): Driver code for light curtain devices [limited access]
       
 3. **Autonomous Mobile Robots (AMR)**: [Link to Repo 1] [Link to Repo 2]
 4. **MES and Scheduling**: [Link to Repo 1] [Link to Repo 2]
