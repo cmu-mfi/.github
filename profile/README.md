@@ -16,8 +16,8 @@ The codebase is a collection of:
 
 **Explore**: Navigate through our code repositories and packages.
    - [Digital Twin](DIGITAL-TWIN.md)
-   - [Industrial Robots]()
-   - [Additive Manufacturing]()
+   - [Industrial Robots]
+   - [Additive Manufacturing]
 
 ## Support and Contact
 
