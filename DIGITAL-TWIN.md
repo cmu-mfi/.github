@@ -9,11 +9,15 @@ The objective of the project is to emulate high-mix/low-volume continuous manufa
 Below are various subsystems of the testbed and associated repos.
 
 1. **Yaskawa GP4 Robots**:
+    - [motoman_ros1](https://github.com/cmu-mfi/motoman_ros1/tree) : ROS1 implementation of interfacing with the robot controller. Includes GP4 assets, MoveIt configuration, and service implementation. 
+    - [gp4-lego-assembly](https://github.com/cmu-mfi/gp4-lego-assembly) : Lego assembly package for GP4
+
+2. **Programmable Light Curtains for Safety**:
     - [Link to Repo 1]
     - [Link to Repo 2]
-3. **Programmable Light Curtains for Safety**: [Link to Repo 1] [Link to Repo 2]
-4. **Autonomous Mobile Robots (AMR)**: [Link to Repo 1] [Link to Repo 2]
-5. **MES and Scheduling**: [Link to Repo 1] [Link to Repo 2]
+    - 
+3. **Autonomous Mobile Robots (AMR)**: [Link to Repo 1] [Link to Repo 2]
+4. **MES and Scheduling**: [Link to Repo 1] [Link to Repo 2]
 ...
 
 We encourage you to explore these projects and make use of our codebase. If you have any questions or need any help, don't hesitate to reach out to us via our [Contact Us](CONTACT.md) page.
