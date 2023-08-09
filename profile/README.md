@@ -15,9 +15,9 @@ The codebase is a collection of:
 ## Getting Started
 
 **Explore**: Navigate through our code repositories and packages.
-   - [Additive Manufacturing](ADDITIVE.md)
    - [Digital Twin](DIGITAL-TWIN.md)
-   - [Industrial Robots](INDUSTRIAL-ROBOTS.md)
+   - [Industrial Robots]()
+   - [Additive Manufacturing]()
 
 ## Support and Contact
 
