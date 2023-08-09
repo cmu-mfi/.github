@@ -6,6 +6,8 @@ Welcome to the Digital Twin page of the Manufacturing Futures Institute (MFI) Co
 
 The objective of the project is to emulate high-mix/low-volume continuous manufacturing. The envisioned testbed is a circular manufacturing ecosystem where parts are assembled, then disassembled such that no material is wasted and where 24/7 operational costs are low, providing potential to generate large datasets. An initial target application is the assembly and disassembly of LEGO® blocks as a fun and compelling technology demonstrator and driver. The expected testbed will grow and build upon a reusable and open-sourced codebase.
 
+![Frame 2](https://github.com/cmu-mfi/.github/assets/8982264/627759fe-e36f-4b4b-a254-6b11e42cf814)
+
 Below are various subsystems of the testbed and associated repos.
 
 1. **Yaskawa GP4 Robots**:
