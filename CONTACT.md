@@ -8,10 +8,10 @@ Shobhit Aggarwal `shobhit@cmu.edu`
 
 **Mailing Address**
 
-Carnegie Mellon University\\
-Manufacturing Futures Initiative\\
-4501 Lytle Street\\
-Pittsburgh, PA 15207\\
+Carnegie Mellon University  
+Manufacturing Futures Initiative  
+4501 Lytle Street  
+Pittsburgh, PA 15207  
 United States
 
 
