@@ -22,6 +22,7 @@ We warmly welcome contributions from everyone. To start contributing, please rea
 
 If you discover a bug or want to request a new feature, please open an issue on our GitHub page. For more information, check our [Contribution Guidelines](CONTRIBUTION.md).
 
+<!--
 ## Support
 
 ### I'm having trouble using the code. What should I do?
@@ -30,6 +31,6 @@ If you're experiencing difficulties, please check the documentation provided wit
 
 ### How can I stay updated with the latest news and code releases?
 
-To stay updated, please subscribe to our newsletter. Check the [Subscription Page](SUBSCRIPTION.md) for more information.
+To stay updated, please subscribe to our newsletter. Check the [Subscription Page](SUBSCRIPTION.md) for more information. -->
 
 We hope you find this FAQ helpful. If you have any other questions, feel free to [contact us](CONTACT.md).
