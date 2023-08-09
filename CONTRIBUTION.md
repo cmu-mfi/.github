@@ -1,5 +1,47 @@
 # Contribution Guidelines
 
+# **Codebase Guidelines**
+
+These guidelines aim to establish a consistent and efficient approach to code development within our project groups. By adhering to these guidelines, we can foster enhanced collaboration, uphold code quality, and guarantee a seamless workflow. Kindly review and follow the guidelines outlined below.
+
+Your commitment to these guidelines is pivotal to the project's success. Should you have queries or require further details, please reach out. Wishing you a productive coding experience!
+
+## **Archiving**
+- **Definition:** Clearly specify what aspects of the codebase are being archived.
+- **Utility Over Features:** Give precedence to utilities over specific tasks or features.
+- **Function Structure:** Advocate for an orthogonal arrangement of functions.
+- **Circular References:** Refrain from creating utility libraries susceptible to circular references.
+
+## **Version Control (Git)**
+- **Tool:** Employ Git for version control. [Visit our repository](https://github.com/cmu-mfi/).
+- **Branching:** Highlight the importance of branching for effective teamwork and code administration.
+- **Additional Tips:** Explore more git tips.
+
+## **Platform and Language Preferences**
+- **Operating System:** While Linux is the preferred choice, it's not obligatory.
+- **Programming Languages:** C++ and Python are favored, but not compulsory.
+
+## **Style Guide**
+- **Magic Numbers:** Steer clear of magic numbers in the code.
+- **Naming Conventions:** Maintain uniformity in naming with `CamelCase` for classes and `snake_case` for variables and functions.
+- **Descriptiveness:** Ensure variable and function names are both descriptive and succinct.
+- **Utility Prefix:** For utility functions, consider prefixing with the scope. For instance, string manipulation functions might be `str_<utility>`.
+- **Headers:** Incorporate appropriate file and function headers, such as:
+  ```c++
+  /*
+  * @brief - Purpose and functionality of the function
+  * @params[in] - Input parameters and a brief description 
+  * @params[out] - Outputs of the function (mention if none and describe any internal modifications)
+  */
+
+## **Comments**
+- **Complex Sections:** Provide comments for intricate code segments or nuanced formulas to aid comprehension.
+- **Minimize Specificity:** Limit line-specific comments unless absolutely essential.
+- **Clean-Up:** Excise dead code and superfluous print statements prior to the final submission.
+- **Indentation:** Utilize indentation to augment code readability and clarify control flow.
+
+
+<!-- 
 We welcome and appreciate contributions from the community! This document provides guidance for individuals interested in contributing to our codebase.
 
 ## How to Contribute
@@ -39,5 +81,5 @@ Remember that this is a community effort. Be respectful and professional in all 
 Thank you for your interest in contributing to our codebase! We look forward to your collaboration.
 
 **Note:** By submitting a pull request, you agree to license your contributions under the same license as this project.
-
+-->
 [**Go to Main Page**](https://github.com/cmu-mfi/)
