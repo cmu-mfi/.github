@@ -1,4 +1,4 @@
-# Contribution Guidelines
+# Codebase Guidelines
 
 These guidelines aim to establish a consistent and efficient approach to code development within our project groups. By adhering to these guidelines, we can foster enhanced collaboration, uphold code quality, and guarantee a seamless workflow. Kindly review and follow the guidelines outlined below.
 
