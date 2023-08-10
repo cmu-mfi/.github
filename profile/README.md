@@ -12,7 +12,7 @@ The codebase is a collection of:
 - Tools developed to facilitate our research
 - Packages that support various applications
 
-[*Codebase Guidelines*](CONTRIBUTION.md)
+[**Codebase Guidelines**](CONTRIBUTION.md)
 
 ## Getting Started
 
