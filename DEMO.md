@@ -42,7 +42,7 @@ mfi@mfi-twin$ roslaunch lc_utils setup_demo.launch
 
 4. After RViz launches with robot models, run the following commands on `lc-rpi-red`
 ```shell
-ilim@lc-rpi-red$ roslaunch plc_robot yaskawa_hull_1_2.launch`
+ilim@lc-rpi-red$ roslaunch plc_robot yaskawa_hull_1_2.launch
 ```
 -  - Starts nodes for sending out safety curtains and monitoring them for intrusions.
    - Starts node for visualizing safety curtains on helper camera images.
