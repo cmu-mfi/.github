@@ -22,11 +22,13 @@ Below are various subsystems of the testbed and associated repos.
     
     More details on programmable light curtains can be found [here](https://www.cs.cmu.edu/~ILIM/light_curtains/)
       
-3. **Autonomous Mobile Robots (AMR)**: [Link to Repo 1] [Link to Repo 2]
+3. **Autonomous Mobile Robots (AMR)**: [Capstone Team Project](https://mrsd-project.herokuapp.com/)
 4. **MES and Scheduling**: [Link to Repo 1] [Link to Repo 2]
 ...
 
 We encourage you to explore these projects and make use of our codebase. If you have any questions or need any help, don't hesitate to reach out to us via our [Contact Us](CONTACT.md) page.
+
+[**Demo Run Documentation**](DEMO.md)
 
 <!-- ## Get Involved
 
