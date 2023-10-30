@@ -49,7 +49,12 @@ ilim@lc-rpi-red$ roslaunch plc_robot yaskawa_hull_1_2.launch
  
 ### C. Autonomous Robots
 > ROS2, mfi-twin, nb-1, nb-2
-1. Launching nav stack on both the robots. Connect via VNC (Reminna or TightVNC, refer [Appendix 2](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix-2---ip-addresses-and-usernames-of-testbed-devices) and [Appendix 3](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix-3---vnc-connect)
+
+1. Make sure the robots are positioned on the markers on the floor! 
+    CMU1 on with its back wheels (dummy wheels) on the marker labeld 1 (direction specified on marker)
+    CMU2 on with its back wheels (dummy wheels) on the marker labeld 2 (direction specified on marker)
+   
+2. Launching nav stack on both the robots. Connect via VNC (Reminna or TightVNC, refer [Appendix 2](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix-2---ip-addresses-and-usernames-of-testbed-devices) and [Appendix 3](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix-3---vnc-connect)
     - in a new terminal run `launch_robot_nav` (it's an alias to the ros2 launch command and can be found in the bashrc)
 
     - in a new terminal run `launch_rviz`
@@ -57,10 +62,6 @@ ilim@lc-rpi-red$ roslaunch plc_robot yaskawa_hull_1_2.launch
 Ensure robots are connected to Netgear5G (stuff only works with 5G for some reason.)
 
 Do the above steps on each robot.
-
-2. Make sure the robots are positioned on the markers on the floor! 
-    CMU1 on with its back wheels (dummy wheels) on the marker labeld 1 (direction specified on marker)
-    CMU2 on with its back wheels (dummy wheels) on the marker labeld 2 (direction specified on marker) 
 
 3. Launching the waypoint commander from the server (digital twin pc)
 
