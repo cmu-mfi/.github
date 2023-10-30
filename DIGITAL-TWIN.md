@@ -28,7 +28,7 @@ Below are various subsystems of the testbed and associated repos.
 
 We encourage you to explore these projects and make use of our codebase. If you have any questions or need any help, don't hesitate to reach out to us via our [Contact Us](CONTACT.md) page.
 
-[**Demo Run Documentation**](DEMO.md)
+[Demo Run Documentation](DEMO.md)
 
 <!-- ## Get Involved
 
