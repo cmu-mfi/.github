@@ -29,8 +29,8 @@ mfi@mfi-twin$ roslaunch testbed_utils RR_Demo.launch
 1. Start YK-Architect, YK-Destroyer, Red LC device
 2. Once they boot up, ensure the following:
   - There is a ROS1 node connected with the YK robots (architect and destroyer)
-  - If you have followed the [LEGO Assembly](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#a-lego-assembly), then continue to next step
-  - Otherwise, follow the steps in [Appendix 1](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix---start-ros1-node-for-yk) for both `yk_architect` and `yk_destroyer`
+    - If you have followed the [LEGO Assembly](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#a-lego-assembly), then continue to next step
+    - Otherwise, follow the steps in [Appendix 1](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix---start-ros1-node-for-yk) for both `yk_architect` and `yk_destroyer`
 3. Run the following commands on mfi-twin workstation
 ```shell
 mfi@mfi-twin$ source repos/ros1_ws/devel/setup.bash
