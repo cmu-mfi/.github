@@ -47,6 +47,10 @@ mfi@mfi-twin$ roslaunch testbed_utils TE_Demo.launch
 - YK-Architect and YK-Destroyer should now be assembling and disassembling the LEGO bricks in a loop.
 - YK-Builder will wait for commands from the web server.
 
+4. Run Azure Kinect to enable AMR docking calibration
+
+
+
 ### C. Light Curtain Safety
 > ROS1, lc-rpi-red, mfi-twin, yk-architect, yk-destroyer
 
