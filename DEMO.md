@@ -8,6 +8,17 @@ c. schedule and task visualization of (b)
 d. light curtain safety for yk_architect and yk_destroyer
 e. live simulation models for robot arms, AMRs, and light curtains
 
+### A. Command Server
+> Flask based server hosted on mfi-twin
+
+```shell
+mfi@mfi-twin$ ~/repos/mfi_commander/command_server.py
+```
+
+This starts a web server where the states of tasks are published. 
+- Check tasks by running `curl http://localhost:5000/command`
+- Post a task by using following syntax `curl -d '{"name":"yk_task", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
+
 ### B. LEGO Assembly
 > ROS1, mfi-twin, yk_architect, yk_destroyer, yk_builder
 
