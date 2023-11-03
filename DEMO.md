@@ -8,6 +8,8 @@
   * D. Autonomous Robots
   * E. Miscellaneous
 * V1 - The RR Demo
+* Appendix
+  * 
 
 ## V2 - The TE Demo
 > 11.09.2023
@@ -66,8 +68,9 @@ open terminal window
 ssh mfi@yk-god
 mfi@yk-god$ start_dummy_screen
 ```
+this allows azure kinect to start via SSH
 
-another terminal window
+another terminal window. password = `lego`
 ```shell
 ssh -X mfi@yk-god
 mfi@yk-god$ export DISPLAY=:0
@@ -207,10 +210,10 @@ roslaunch testbed_utils lego_moveit_yk namespace:=yk_architect
 | Yaskawa Robot B        | yk_builder             | 192.168.1.72           | NA                 | NA                 |
 | Yaskawa Robot C        | yk_creator             | 192.168.1.73           | NA                 | NA                 |
 | Yaskawa Robot D        | yk_destroyer           | 192.168.1.74           | NA                 | NA                 |
-| Light Curtain Red (Wired)| lc-rpi                 | 192.168.1.             | ilim               | ilimlab            |
-| Light Curtain Red (WiFi) | lc-rpi                 | 192.168.1.             | ilim               | ilimlab            |
-| Light Curtain Blue (Wired)| lc-rpi                 | 192.168.1.             | ilim               | ilimlab            |
-| Light Curtain Blue (WiFi) | lc-rpi                 | 192.168.1.             | ilim               | ilimlab            |
+| Light Curtain Red (Wired)| lc-rpi                 | 192.168.1.4             | ilim               | ilimlab            |
+| Light Curtain Red (WiFi) | lc-rpi                 | 192.168.1.6             | ilim               | ilimlab            |
+| Light Curtain Blue (Wired)| lc-rpi                 | 192.168.1.5             | ilim               | ilimlab            |
+| Light Curtain Blue (WiFi) | lc-rpi                 | 192.168.1.3             | ilim               | ilimlab            |
 | Neobotix 1 or nb-1        |                     | 192.168.1.100          | mfi                | neobotix           |
 | Neobotix 2 or nb-2        |                     | 192.168.1.101          | mfi                | neobotix           |
 
