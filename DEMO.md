@@ -181,5 +181,22 @@ Expected output - the bots will keep on going in circles moving between the 4 co
 roslaunch testbed_utils lego_moveit_yk namespace:=yk_architect
 ```
 
-### Appendix 2 - IP addresses and usernames of testbed devices
+### Appendix 2 - IP addresses, usernames, and passwords of testbed devices
+
+| Device                 | Hostname               | IP Address             | Username           | Password           |
+| ---------------------- | ---------------------- | ---------------------- | ------------------ | ------------------ |
+| Main Workstation       | mfi-twin               | 192.168.1.2            | mfi                | lego               |
+| PC - Robot Arms        | yk-god                 | 192.168.1.70           | mfi                | lego               |
+| Yaskawa Robot A        | yk_architect           | 192.168.1.71           | NA                 | NA                 |
+| Yaskawa Robot B        | yk_builder             | 192.168.1.72           | NA                 | NA                 |
+| Yaskawa Robot C        | yk_creator             | 192.168.1.73           | NA                 | NA                 |
+| Yaskawa Robot D        | yk_destroyer           | 192.168.1.74           | NA                 | NA                 |
+| Light Curtain Red (Wired)| lc-rpi                 | 192.168.1.             | ilim               | ilimlab            |
+| Light Curtain Red (WiFi) | lc-rpi                 | 192.168.1.             | ilim               | ilimlab            |
+| Light Curtain Blue (Wired)| lc-rpi                 | 192.168.1.             | ilim               | ilimlab            |
+| Light Curtain Blue (WiFi) | lc-rpi                 | 192.168.1.             | ilim               | ilimlab            |
+| Neobotix 1 or nb-1        |                     | 192.168.1.100          | mfi                | neobotix           |
+| Neobotix 2 or nb-2        |                     | 192.168.1.101          | mfi                | neobotix           |
+
+
 ### Appendix 3 - VNC Connect
