@@ -1,3 +1,14 @@
+
+#### Table of Contents
+
+* V2 - The TE Demo
+  * A. Command Server
+  * B. LEGO Assembly
+  * C. Light Curtain Safety
+  * D. Autonomous Robots
+  * E. Miscellaneous
+* V1 - The RR Demo
+
 ## V2 - The TE Demo
 > 11.09.2023
 
@@ -14,9 +25,10 @@ e. live simulation models for robot arms, AMRs, and light curtains
 ```shell
 mfi@mfi-twin$ ~/repos/mfi_commander/command_server.py
 ```
+**Do not close the terminal**
 
 This starts a web server where the states of tasks are published. 
-- Check tasks by running `curl http://localhost:5000/command`
+- Check tasks by running in another terminal `$ curl http://localhost:5000/command`
 - Post a task by using following syntax 
 [USE ONLY FOR DEBUGGING. AVOID RUNNING THIS DURING ACTUAL DEMO] \
 `curl -d '{"name":"yk_task", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
