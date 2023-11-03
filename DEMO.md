@@ -49,6 +49,18 @@ mfi@mfi-twin$ roslaunch testbed_utils TE_Demo.launch
 
 4. Run Azure Kinect to enable AMR docking calibration
 
+open terminal window
+```shell
+ssh mfi@yk-god
+mfi@yk-god$ start_dummy_screen
+```
+
+another terminal window
+```shell
+ssh -X mfi@yk-god
+mfi@yk-god$ export DISPLAY=:0
+mfi@yk-god$ roslaunch azure_kinect_ros_driver kinect_rgbd.launch
+```
 
 
 ### C. Light Curtain Safety
