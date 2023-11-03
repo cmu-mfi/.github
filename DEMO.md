@@ -1,3 +1,35 @@
+## V2 - The TE Demo
+> 11.09.2023
+
+The demo involves 
+a. two Yaskawa robots (yk_architect and yk_destroyer) assembling chair and pyramid lego models,
+b. one Yaskawa robot (yk_builder) working with AMR to assemble from LEGO kit
+c. schedule and task visualization of (b)
+d. light curtain safety for yk_architect and yk_destroyer
+e. live simulation models for robot arms, AMRs, and light curtains
+
+### A. LEGO Assembly
+> ROS1, mfi-twin, yk-architect, yk-destroyer
+
+1. Start YK-Architect and YK-Destroyer
+2. Once they boot up, ensure the following before running any commands
+  - Ensure the LEGO assembly tool is on the robot
+  _{insert images here}_
+  - Ensure the tool is not touching any lego brick on the table, and has clearance above all LEGO bricks
+    - If that's not the case, put the robot in "TEACH" mode, and jog +Z
+    - Put it in the "REMOTE" mode when done
+  - Ensure they are in "Remote" mode, by turning the key on the smart pendant
+  - Ensure LEGO bricks are laid out in the following layout \
+  ![setup(1)](https://github.com/cmu-mfi/.github/assets/8982264/6e14b859-841b-470e-9f07-378fefbad23c)
+
+3. Run the following commands on the mfi-twin workstation
+```shell
+mfi@mfi-twin$ source repos/ros1_ws/devel/setup.bash
+mfi@mfi-twin$ roslaunch testbed_utils RR_Demo.launch
+```
+- Robots should now be assembling and disassembling the LEGO bricks in a loop
+
+
 ## V1 - The RR Demo
 > 10.30.2023
 
@@ -53,8 +85,10 @@ ilim@lc-rpi-red$ roslaunch plc_robot yaskawa_hull_1_2.launch
 1. Make sure the robots are positioned on the markers on the floor! 
     CMU1 on with its back wheels (dummy wheels) on the marker labeld 1 (direction specified on marker)
     CMU2 on with its back wheels (dummy wheels) on the marker labeld 2 (direction specified on marker)
-   
-2. Launching nav stack on both the robots. Connect via VNC (Reminna or TightVNC, refer [Appendix 2](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix-2---ip-addresses-and-usernames-of-testbed-devices) and [Appendix 3](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix-3---vnc-connect)
+
+2. Launching nav stack on both the robots.
+    - Connect via VNC (Reminna or TightVNC, refer [Appendix 2](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix-2---ip-addresses-and-usernames-of-testbed-devices) and [Appendix 3](https://github.com/cmu-mfi/.github/edit/main/DEMO.md#appendix-3---vnc-connect)
+    > steps below under (2) not needed if you see RVIZ in VNC window. Move to step 3.
     - in a new terminal run `launch_robot_nav` (it's an alias to the ros2 launch command and can be found in the bashrc)
 
     - in a new terminal run `launch_rviz`
