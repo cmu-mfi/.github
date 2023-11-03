@@ -21,7 +21,7 @@ This starts a web server where the states of tasks are published.
 [USE ONLY FOR DEBUGGING. AVOID RUNNING THIS DURING ACTUAL DEMO] \
 `curl -d '{"name":"yk_task", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
 
-> RUN ALL THE OTHER SECTIONS BEFORE RUNNING THE STEP BELOW \
+> RUN ALL THE OTHER SECTIONS BEFORE RUNNING THE STEP BELOW
 
 `curl -d '{"name":"amr_task1", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
 
