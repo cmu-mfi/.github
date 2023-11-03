@@ -14,7 +14,9 @@ e. live simulation models for robot arms, AMRs, and light curtains
 1. Start YK-Architect and YK-Destroyer
 2. Once they boot up, ensure the following before running any commands
   - Ensure the LEGO assembly tool is on the robot
-  _{insert images here}_
+
+![Screenshot 2023-11-02 215752](https://github.com/cmu-mfi/.github/assets/8982264/e5294080-7730-47e6-9afe-0ee55524783f)
+
   - Ensure the tool is not touching any lego brick on the table, and has clearance above all LEGO bricks
     - If that's not the case, put the robot in "TEACH" mode, and jog +Z
     - Put it in the "REMOTE" mode when done
