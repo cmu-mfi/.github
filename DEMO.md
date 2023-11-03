@@ -92,6 +92,8 @@ ilim@lc-rpi-red$ roslaunch plc_robot yaskawa_hull_1_2.launch
 
 (TBD)
 
+<hr>
+
 ## V1 - The RR Demo
 > 10.30.2023
 
@@ -172,6 +174,8 @@ Do the above steps on each robot.
 
 
 Expected output - the bots will keep on going in circles moving between the 4 corners of the testbed.
+
+<hr>
 
 ## Appendix   
 ### Appendix 1 - Start ROS1 node for YK
