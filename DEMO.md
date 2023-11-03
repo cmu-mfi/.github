@@ -51,7 +51,8 @@ This starts a web server where the states of tasks are published.
     - Put it in the "REMOTE" mode when done
   - Ensure they are in "Remote" mode, by turning the key on the smart pendant
   - Ensure LEGO bricks are laid out in the following layout(s) \
-  ![setup(1)](https://github.com/cmu-mfi/.github/assets/8982264/6e14b859-841b-470e-9f07-378fefbad23c)
+
+[TBD by Ruixuan]
 
 3. Run the following commands on the mfi-twin workstation
 ```shell
