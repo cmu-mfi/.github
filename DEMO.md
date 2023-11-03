@@ -68,7 +68,7 @@ open terminal window
 ssh mfi@yk-god
 mfi@yk-god$ start_dummy_screen
 ```
-this allows azure kinect to start via SSH
+this allows azure kinect to start via SSH, a pre-reqquisite for command below.
 
 another terminal window. password = `lego`
 ```shell
@@ -95,10 +95,10 @@ mfi@mfi-twin$ roslaunch lc_utils setup_demo.launch
   - Publishes transforms between cameras, robots, and lasers.
   - Starts the demo rviz for the light curtain visualizations. 
 
-4. After RViz launches with robot models, run the following commands on `lc-rpi-red`. password=`ilimlab`
+4. After RViz launches with robot models, run the following commands on red light curtain. password=`ilimlab`
 ```shell
 ssh ilim@192.168.1.4
-ilim@lc-rpi-red$ roslaunch plc_robot yaskawa_hull_1_2.launch
+ilim@lc-rpi$ roslaunch plc_robot yaskawa_hull_1_2.launch
 ```
 -  - Starts nodes for sending out safety curtains and monitoring them for intrusions.
    - Starts node for visualizing safety curtains on helper camera images.
