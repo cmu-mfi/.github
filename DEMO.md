@@ -17,7 +17,9 @@ mfi@mfi-twin$ ~/repos/mfi_commander/command_server.py
 
 This starts a web server where the states of tasks are published. 
 - Check tasks by running `curl http://localhost:5000/command`
-- Post a task by using following syntax `curl -d '{"name":"yk_task", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
+- Post a task by using following syntax 
+[USE ONLY FOR DEBUGGING. AVOID RUNNING THIS DURING ACTUAL DEMO]
+`curl -d '{"name":"yk_task", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
 
 ### B. LEGO Assembly
 > ROS1, mfi-twin, yk_architect, yk_destroyer, yk_builder
