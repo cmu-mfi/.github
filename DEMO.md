@@ -37,10 +37,6 @@ This starts a web server where the states of tasks are published.
 [USE ONLY FOR DEBUGGING. AVOID RUNNING THIS DURING ACTUAL DEMO] \
 `curl -d '{"name":"yk_task", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
 
-> RUN ALL THE OTHER SECTIONS BEFORE RUNNING THE STEP BELOW
-
-`curl -d '{"name":"amr_task1", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
-
 ### B. LEGO Assembly
 > ROS1, mfi-twin, yk_architect, yk_destroyer, yk_builder
 
@@ -112,6 +108,13 @@ ilim@lc-rpi$ roslaunch plc_robot yaskawa_hull_1_2.launch
 (TBD)
 
 ### E. Miscellaneous
+
+- Once all the above sections are done. Run following in a new terminal
+
+```shell
+mfi@mfi-twin$ `curl -d '{"name":"amr_task1", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
+```
+(TBD)
 
 <hr>
 
