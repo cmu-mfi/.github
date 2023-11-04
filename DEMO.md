@@ -1,15 +1,17 @@
 
 #### Table of Contents
 
-* V2 - The TE Demo
-  * A. Command Server
-  * B. LEGO Assembly
-  * C. Light Curtain Safety
-  * D. Autonomous Robots
-  * E. Miscellaneous
-* V1 - The RR Demo
-* Appendix
-  * 
+* [V2 - The TE Demo](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#v2---the-te-demo)
+  * [A. Command Server](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#a-command-server)
+  * [B. LEGO Assembly](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#b-lego-assembly)
+  * [C. Light Curtain Safety](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#c-light-curtain-safety)
+  * [D. Autonomous Robots](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#d-autonomous-robots)
+  * [E. Miscellaneous](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#e-miscellaneous)
+* [V1 - The RR Demo](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#v1---the-rr-demo)
+* [Appendix](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#appendix)
+  * [A1 - Start ROS1 ndoe for YK](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#appendix-1---start-ros1-node-for-yk)
+  * [A2 - testbed devices network info](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#appendix-2---ip-addresses-usernames-and-passwords-of-testbed-devices)
+  * [A3 - VNC Connect](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#appendix-3---vnc-connect)
 
 ## V2 - The TE Demo
 > 11.09.2023
