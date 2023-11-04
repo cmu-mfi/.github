@@ -109,7 +109,7 @@ ilim@lc-rpi$ roslaunch plc_robot yaskawa_hull_1_2.launch
 
 ### E. Miscellaneous
 
-- Once all the above sections are done. Run following in a new terminal
+- Once all the above sections are done. Run the following in a new terminal
 
 ```shell
 mfi@mfi-twin$ `curl -d '{"name":"amr_task1", "status":"START"}' -H "Content-Type: application/json" -X POST http://localhost:5000/command`
