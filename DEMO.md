@@ -1,5 +1,5 @@
 
-#### Table of Contents
+#### Contents
 
 * [V2 - The TE Demo](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#v2---the-te-demo)
   * [A. Command Server](https://github.com/cmu-mfi/.github/blob/main/DEMO.md#a-command-server)
@@ -110,6 +110,8 @@ ilim@lc-rpi$ roslaunch plc_robot yaskawa_hull_1_2.launch
 > ROS2, mfi-twin, nb-1, nb-2
 
 (TBD)
+
+### E. Miscellaneous
 
 <hr>
 
