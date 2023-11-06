@@ -116,6 +116,8 @@ mfi@mfi-twin$ `curl -d '{"name":"amr_task1", "status":"START"}' -H "Content-Type
 ```
 (TBD)
 
+- **Legolization Demo**: In a new laptop/PC, visit [http://shibainu.andrew.cmu.edu:7860/](http://shibainu.andrew.cmu.edu:7860/). Plug in HDMI to a monitor and keyboard/mouse, to the laptop/PC for visitors to try out prompts.
+
 <hr>
 
 ## V1 - The RR Demo
