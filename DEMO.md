@@ -109,7 +109,7 @@ ilim@lc-rpi$ roslaunch plc_robot yaskawa_hull_1_2.launch
 
 ### E. Miscellaneous
 
-- Start MES Visualization server \
+#### Start MES Visualization server
 To Start the Executive:
 ```
     cd ~/repos/executive/executable-linux-v2/
@@ -122,6 +122,7 @@ To Start Browser-Based Visualization Server:
 ```
  - open browser and visit `http://localhost:5000/command`
    
+#### Start the cycle
 - Once all the above sections are done. Run the following in a new terminal
 
 ```shell
@@ -129,7 +130,8 @@ mfi@mfi-twin$ `curl -d '{"name":"amr_task1", "status":"START"}' -H "Content-Type
 ```
 (TBD)
 
-- **Legolization Demo**: In a new laptop/PC, visit [http://shibainu.andrew.cmu.edu:7860/](http://shibainu.andrew.cmu.edu:7860/). Plug in HDMI to a monitor and keyboard/mouse, to the laptop/PC for visitors to try out prompts.
+#### Legolization Demo
+In a new laptop/PC, visit [http://shibainu.andrew.cmu.edu:7860/](http://shibainu.andrew.cmu.edu:7860/). Plug in HDMI to a monitor and keyboard/mouse, to the laptop/PC for visitors to try out prompts.
 
 <hr>
 
