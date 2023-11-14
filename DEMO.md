@@ -120,7 +120,7 @@ To Start Browser-Based Visualization Server:
     cd ~/repos/executive/executable-linux-v2/Timeline
     python3 app.py
 ```
- - open browser and visit `http://localhost:5000/command`
+ - open browser and visit `http://localhost:8050/`
    
 #### Start the cycle
 - Once all the above sections are done. Run the following in a new terminal
