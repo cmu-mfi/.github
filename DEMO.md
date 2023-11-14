@@ -109,6 +109,20 @@ ilim@lc-rpi$ roslaunch plc_robot yaskawa_hull_1_2.launch
 
 ### E. Miscellaneous
 
+- Start MES Visualization server
+To Start the Executive:
+```
+    cd ~/repos/executive/executable-linux-v2/
+    ./tds
+```
+
+To Start Browser-Based Visualization Server:
+```
+    cd ~/repos/executive/executable-linux-v2/Timeline
+    python3 app.py
+```
+ - open browser and visit `http://localhost:5000/command`
+   
 - Once all the above sections are done. Run the following in a new terminal
 
 ```shell
