@@ -1,5 +1,4 @@
-_
---- outdated instructions ---_
+*--- outdated instructions ---*
 
 #### Contents
 
