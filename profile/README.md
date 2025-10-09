@@ -12,18 +12,21 @@ The codebase is a collection of:
 - Tools developed to facilitate our research
 - Packages that support various applications
 
-[**Codebase Guidelines**](CONTRIBUTION.md)
+ [Contribution Guidelines](CONTRIBUTION.md)
 
 ## Getting Started
 
-**Explore**: Navigate through our code repositories and packages.
-   - [Digital Twin](DIGITAL-TWIN.md)
-   - [Industrial Robots]
-   - [Additive Manufacturing]
+The tutorials and documentation are available on our GitHub page website
+
+[https://cmu-mfi.github.io/](https://cmu-mfi.github.io/)
+
+## License
+
+Unless otherwise specified, all work within this GitHub organization is licensed under the [BSD 3-Clause License](../LICENSE.md).
 
 ## Support and Contact
 
-If you need any help or have any questions, please visit our [FAQs](FAQ.md) or reach out to us through our [Contact Us](CONTACT.md) page.
+If you need any help or have any questions, please visit our [FAQs](../FAQ.md) or reach out to us through our [Contact Us](../CONTACT.md) page.
 
 > *"My heart is in the work." - Andrew Carnegie*
 
